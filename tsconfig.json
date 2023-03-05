@@ -9,6 +9,6 @@
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
+  "include": ["src/**/*.*", "jest.config.js"],
+  "exclude": ["node_modules"]
 }

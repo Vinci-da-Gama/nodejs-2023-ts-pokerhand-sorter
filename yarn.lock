@@ -898,7 +898,7 @@
     debug "^4.3.4"
     tsutils "^3.21.0"
 
-"@typescript-eslint/types@5.54.0":
+"@typescript-eslint/types@5.54.0", "@typescript-eslint/types@^5.54.0":
   version "5.54.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-5.54.0.tgz#7d519df01f50739254d89378e0dcac504cab2740"
   integrity sha512-nExy+fDCBEgqblasfeE3aQ3NuafBUxZxgxXcYfzYRZFHdVvk5q60KhCSkG0noHgHRo/xQ/BOzURLZAafFpTkmQ==
@@ -1694,6 +1694,11 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
+eslint-config-standard@^17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.0.0.tgz#fd5b6cf1dcf6ba8d29f200c461de2e19069888cf"
+  integrity sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==
+
 eslint-import-resolver-node@^0.3.7:
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.7.tgz#83b375187d412324a1963d84fa664377a23eb4d7"
@@ -1760,6 +1765,13 @@ eslint-plugin-scss-import-last@^1.0.11:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/eslint-plugin-scss-import-last/-/eslint-plugin-scss-import-last-1.0.11.tgz#1e1ed2ee659baaf882c1899ba38c1ab232e594aa"
   integrity sha512-Qu2s4wv02PVjHU1DAMJOELp/N198Iyd9mqAqfZOkMUvFfpQZIwuyYBRtV6lqLjiUhM0Zd9k53ACdmySYSQnFDQ==
+
+eslint-plugin-standard-recommended@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-standard-recommended/-/eslint-plugin-standard-recommended-1.0.8.tgz#8e8380382a414e3394956250fab9613bae9b9f0c"
+  integrity sha512-XnsPlCcsmE4uKFYJj4vo5fkl+yXrenHfDFV4e9tIqVogRnmnDljkYky81nbUqk1Pi06NEcHYQWVrPMV38U1umw==
+  dependencies:
+    requireindex "^1.2.0"
 
 eslint-plugin-standard@^5.0.0:
   version "5.0.0"
@@ -3705,6 +3717,11 @@ require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==
+
+requireindex@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
+  integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
