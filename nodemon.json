@@ -1,6 +1,6 @@
 {
   "watch": ["src"],
-  "ext": "tsx ts jsx js",
+  "ext": "tsx ts jsx js json",
   "ignore": ["node_modules"],
   "execMap": {
     "ts": "node --loader ts-node/esm --experimental-specifier-resolution=node"
