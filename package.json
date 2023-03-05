@@ -7,10 +7,7 @@
     "start": "ts-node src/index.ts",
     "start:dev": "nodemon src/index.ts | pino-pretty",
     "test": "jest",
-    "lint": "eslint --ext .ts,.tsx,.js,.jsx,.scss,.vue ."
-  },
-  "hooks": {
-    "pre-commit": "npm run lint"
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx ."
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
