@@ -46,10 +46,10 @@ module.exports = {
       node: {
         extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
-      alias: {
+      /* alias: {
         map: [["@", path.resolve(__dirname, "src")]],
         extensions: [".js", ".jsx", ".ts", ".tsx"],
-      },
+      }, */
     },
   },
   rules: {
@@ -64,6 +64,8 @@ module.exports = {
     "standard/no-callback-literal": "off",
     "standard/array-bracket-even-spacing": "off",
     "standard/computed-property-even-spacing": "off",
+    "import/namespace": "off",
+    "node/no-missing-import": "off",
     "node/no-unpublished-import": [
       "error",
       {
